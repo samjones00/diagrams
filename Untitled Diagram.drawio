@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T13:16:51.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" version="20.0.3" etag="9N_5FuUYlpo_6M-T87Np" type="github"><diagram id="RUVcYa9RVL_YRO4Ov1P2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-28T13:56:17.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="hBHkuvDqJy566OMfqMJ9" version="20.0.3" type="github">
+  <diagram id="RUVcYa9RVL_YRO4Ov1P2" name="Page-1">
+    <mxGraphModel dx="1160" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WfTik3zrqjdKy5yZ7-6u-3" target="WfTik3zrqjdKy5yZ7-6u-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WfTik3zrqjdKy5yZ7-6u-3" target="WfTik3zrqjdKy5yZ7-6u-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-3" value="APIM&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-5" value="submit&lt;br&gt;command&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-11" value="Bank" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="710" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-23" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="500" y="103.5" width="143.33" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-25" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="315" width="94" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-27" value="Read model cache&amp;nbsp;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="510" y="308.2" width="123.33" height="103.59" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-35" value="Read&lt;br&gt;Query&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
