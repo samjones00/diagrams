@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" modified="2022-06-28T16:31:02.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="qwL9x3DUDyPLw47k7cRr" version="20.0.3" type="github">
+  <diagram id="RUVcYa9RVL_YRO4Ov1P2" name="Page-1">
+    <mxGraphModel dx="870" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WfTik3zrqjdKy5yZ7-6u-2" target="38tPhvQ4RKaHuOEbYrm1-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="265" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AhzPj0LaZZB0Be55pUgu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WfTik3zrqjdKy5yZ7-6u-27" target="38tPhvQ4RKaHuOEbYrm1-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="574" y="590" />
+              <mxPoint x="305" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-27" value="Read model cache&amp;nbsp;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="1" vertex="1">
+          <mxGeometry x="519.77" y="460" width="108.46" height="91.1" as="geometry" />
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="200" as="sourcePoint" />
+            <mxPoint x="970" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfTik3zrqjdKy5yZ7-6u-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="290" as="sourcePoint" />
+            <mxPoint x="165" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AhzPj0LaZZB0Be55pUgu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-2" target="WfTik3zrqjdKy5yZ7-6u-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-2" value="Read API&amp;nbsp;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;" parent="1" vertex="1">
+          <mxGeometry x="271.01" y="475.55" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-3" target="38tPhvQ4RKaHuOEbYrm1-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-3" value="Submit api&lt;br&gt;Add commands to queue" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;" parent="1" vertex="1">
+          <mxGeometry x="271.01" y="90" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-11" target="38tPhvQ4RKaHuOEbYrm1-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-11" value="Message queue&amp;nbsp;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" parent="1" vertex="1">
+          <mxGeometry x="410" y="95" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-13" target="38tPhvQ4RKaHuOEbYrm1-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AhzPj0LaZZB0Be55pUgu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.588;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-13" target="38tPhvQ4RKaHuOEbYrm1-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-13" value="Command handler" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
+          <mxGeometry x="540" y="90" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AhzPj0LaZZB0Be55pUgu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.882;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-14" target="38tPhvQ4RKaHuOEbYrm1-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-14" value="3rd party API&amp;nbsp;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="790" y="120" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="AhzPj0LaZZB0Be55pUgu-10" target="WfTik3zrqjdKy5yZ7-6u-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-17" value="Event store or DB&amp;nbsp;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Production_Ready_Database.svg;" parent="1" vertex="1">
+          <mxGeometry x="550" y="201" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="AhzPj0LaZZB0Be55pUgu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-27" target="38tPhvQ4RKaHuOEbYrm1-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AhzPj0LaZZB0Be55pUgu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-27" target="38tPhvQ4RKaHuOEbYrm1-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38tPhvQ4RKaHuOEbYrm1-27" value="APIM" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/integration/API_Management_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="220" y="260" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AhzPj0LaZZB0Be55pUgu-10" value="Generate read model / materialized view" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
+          <mxGeometry x="540" y="330" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AhzPj0LaZZB0Be55pUgu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="38tPhvQ4RKaHuOEbYrm1-17" target="AhzPj0LaZZB0Be55pUgu-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574" y="265" as="sourcePoint" />
+            <mxPoint x="574.0999999999999" y="404.45000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
